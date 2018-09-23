@@ -9,7 +9,7 @@
 import Foundation
 import AVFoundation
 
-class Resolver {
+public class Resolver {
     
     public func isISBN(barcode: String) -> Bool {
   

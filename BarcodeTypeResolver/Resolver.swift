@@ -11,6 +11,8 @@ import AVFoundation
 
 public class Resolver {
     
+    public init() {}
+    
     public func isISBN(barcode: String) -> Bool {
   
         return ISBNValidator.verifyISBN13(barcode) || ISBNValidator.verifyISBN10(barcode)
